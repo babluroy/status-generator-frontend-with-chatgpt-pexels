@@ -1,0 +1,15 @@
+.statusContainer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.generatedStatusContainer {
+    margin-top: 15px;
+    border: 1px solid var(--green);
+    padding: 15px;
+}

@@ -1,0 +1,30 @@
+.imagesContainer {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.downloadButton {
+    background-color:#00B894;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.downloadButton:hover {
+    background-color:#14d8b1;
+}
+
+.generatedImageThumbs {
+    height: 650px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .generatedImageThumbs {
+       height: 90px !important;
+    }
+}

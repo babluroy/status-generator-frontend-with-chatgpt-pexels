@@ -1,0 +1,29 @@
+.noFocusOutline:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.searchInputContainer{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.searchInputContainer textarea{
+    background-color: var(--dark);
+    color: var(--light);
+    border: 0.5px solid var(--green);
+}
+
+.searchInputContainer textarea:focus { 
+    background-color: var(--dark);
+    color: var(--light);
+    border: 0.5px solid var(--green);
+}
+
+.searchInputContainer textarea::placeholder { 
+    color: #ccc;
+}
+
+.searchInput{
+    margin-bottom: 10px;
+}

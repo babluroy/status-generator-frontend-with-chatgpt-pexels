@@ -1,0 +1,15 @@
+.header {
+    background-color: var(--dark);
+    padding: 15px;
+    color: var(--light);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.wsText{
+    color: var(--green);
+}
+
+.insText {
+    color: var(--red)
+}

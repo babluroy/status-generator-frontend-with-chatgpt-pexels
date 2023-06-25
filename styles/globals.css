@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@300&family=Roboto&display=swap');
+
+:root {
+  --dark: #242121;
+  --green: #25D366;
+  --blue: "#1590E9";
+  --light: #fff;
+  --red: #E4405F;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+#__next{
+  background-color: var(--dark);
+  color: var(--light);
+  height: 100vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*checkbox color */
+.form-check-input:checked {
+  background-color: var(--green) !important;
+  border-color:var(--green) !important;
+  outline: none;
+  box-shadow: none;
+}
